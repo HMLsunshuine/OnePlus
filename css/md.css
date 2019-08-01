@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    box-sizing: border-box;
+    width: 100vw;
+}
+.nav{
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+}
+.nav-one{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+.nav>.nav-one>span{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    position: relative;
+    left: 13px;
+    top: 15px;
+}
+.yijia{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    left: 162.5px;
+    top: -50px;
+}
+.nav>.yijia>span{
+    font-size: 33px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+    color: #eb0028;
+}
+.nav-gouwudai{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    left: 325px;
+    top: -100px;
+}
+.nav>.nav-gouwudai>span{
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.section-one{
+    width: 100vw;
+    height: 360px;
+    background-image: url("../picture/section1phone.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.section-one-yong{
+    height: 29.6px;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: MYingHei W7,SlateForOnePlusMedium,Microsoft Yahei,sans-serif;
+    color: white;
+    text-align: center;
+}
+.bu{
+    position: relative;
+    left: 5px;
+    top: -42px;
+}
+.section-one-huan{
+    height: 48px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.section-one-box{
+    text-align: center;
+    color: white;
+}
+.section-one-liao{
+       text-align: center;
+       margin-top: 10px;
+}
+#liao{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.section-two{
+    width: 100vw;
+    height: 610px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-image: url("../picture/section2phone.jpg");
+    background-size:cover;
+    background-position: center  center;
+    position: relative;
+    overflow: hidden;
+}
+.section-two:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+.section-two-top{
+width: 100vw;
+height: 200px;
+padding-top: 30px;
+
+}
+.section-two-one{
+    font-size: 28px;
+    text-align: center;
+}
+.section-two-two{
+    font-size: 24px;
+    text-align: center;
+}
+.section-two-three{
+    font-size: 18px;
+    text-align: center;
+}
+.section-two-four{
+    text-align: center;
+    border: 1px solid black;
+    width: 142px;
+    height: 38px;
+    position: relative;
+    left: 108px;
+}
+.section-two-four>span{
+    position: relative;
+    top: 8px;
+}
+.section-two-five{
+    text-align: center;
+    padding-top: 10px;
+}
+.section-two-five>a{
+    text-decoration: none;
+    color: black;
+}
+.section-three{
+    width: 100vw;
+    height: 610px;
+    margin-top: 10px;
+    background-image: url("../picture/section3phone.jpg");
+    background-size: cover;
+    background-position:center center;
+    overflow: hidden;
+    color: white;
+    position: relative;
+}
+.section-three:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+.section-three-one{
+    padding-top: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+.section-three-two{
+    font-size: 24px;
+    text-align: center;
+}
+.section-three-three{
+    font-size: 18px;
+    text-align: center;
+}
+.section-three-four{
+    text-align: center;
+    border: 1px solid white;
+    width: 142px;
+    height: 38px;
+    position: relative;
+    left: 108px;
+}
+.section-three-four>span{
+    position: relative;
+    top: 8px;}
+    .section-three-five>a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .section-three-five{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .section-four{
+        width: 100vw;
+        height: 510px;
+        margin-top: 10px;
+        background-image: url("../picture/section4phone.png");
+        background-size: cover;
+        background-position:center center;
+        position: relative;
+        color: white;
+        overflow: hidden;
+    }
+    .section-four:hover{
+        transform: scale(1.1, 1.1);
+        transition: .5s;
+    }
+    .section-four-one{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-four-two{
+        font-size: 18px;
+        text-align: center;
+    }
+    .section-four-box{
+        position: relative;
+        top: 20px;
+    }
+
+.section-five{
+    position: relative;
+    background-image: url("../picture/section5phone.jpg");
+    width: 100vw;
+    height: 610px;
+    background-size: cover;
+    background-position:center center;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.section-five:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+.section-five-one{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bolder;
+}
+.section-five-two{
+    font-size: 18px;
+    text-align: center;
+}
+.section-six{
+    width: 100vw;
+    height: 510px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-image: url("../picture/section6phone.jpg");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.section-six:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+.section-six-one{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.section-six-two{
+    font-size: 18px;
+    text-align: center;
+}
+#six-three{
+    text-decoration: none;
+    color: black;
+}
+.section-seven{
+    width: 100vw;
+    height: 510px;
+    box-sizing: border-box;
+    background-image: url("../picture/section7phone.jpg");
+    background-size: cover;
+    background-position:center center;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.section-seven:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+.section-seven-one{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.section-seven-two{
+    font-size: 18px;
+    text-align: center;
+}
+#seven-three{
+    text-decoration: none;
+    color: black;
+}
+.section-eight{
+    width: 100vw;
+    height: 187px;
+    box-sizing: border-box;
+    background-image: url("../picture/section8phone.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.section-eight:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+.section-eight-one{
+    font-weight: bolder;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+.section-eight-two{
+text-align: center;
+padding: 5px 140px;
+}
+.eight-three{
+    border: 2px solid white;
+    color: white;
+}
+.section-nine{
+    margin-top: 10px;
+    width: 100vw;
+    height: 1160px;
+    background-color: #F6F6F6;
+}
+.nine-img-one{
+    padding-top: 10px;
+    text-align: center;
+}
+.nine-one-img{
+    width: 295px;
+    height: 183px;
+}
+.section-nine-one{
+    width: 100vw;
+    height: 387px;
+    overflow: hidden;
+}
+.section-nine-one:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+.duo{
+    color: #09c;
+}
+.nine-text{
+    width: 100vw;
+    height: 50px;
+    text-align: left;
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+}
+.nine-text>:nth-child(2){
+ font-size: 18px;
+}
+.section-ten{
+    width: 100vw;
+    height: 334px;
+    margin-top: 10px;
+}
+
+.jinling-one{
+    width:50vw;
+    height: 80px;
+    background-image: url("../picture/oneplus.png");
+    background-position:50px -398px;
+    background-repeat: no-repeat;
+}
+.section-ten>div{
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.jinling-two{
+    width:50vw;
+    height: 80px;
+    background-image: url("../picture/oneplus.png");
+    background-position:50px 5px;
+    background-repeat: no-repeat;
+}
+.jinling-three{
+    width:50vw;
+    height: 80px;
+    background-image: url("../picture/oneplus.png");
+    background-position:50px -237px;
+    background-repeat: no-repeat;
+}
+.jinling-four{
+    width:50vw;
+    height: 80px;
+    background-image: url("../picture/oneplus.png");
+    background-position:50px -561px;
+    background-repeat: no-repeat;
+}
+.footer{
+    width: 100vw;
+    height: 781px;
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+}
+.footer-one{
+      width: 100vw;
+      height: 32px;
+}
+.footer-two{
+    width: 100vw;
+    height: 50px;
+    border-top: 1px solid #e2e2e2;
+    line-height: 50px;
+    z-index: 1;
+}
+.plus{
+    position: relative;
+    left:260px;
+}
+.footer-two-left{
+     position: relative;
+     left: 20px;
+     font-size: 16px;
+     color: #828282;
+}
+.guoqi{
+    width: 31px;
+    height: 21px;
+    background-image: url("../picture/country.png");
+    background-position: -31px -63px; 
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 14px;
+}
+.yuyan{
+    position: relative;
+    left: 60px;
+    top: -22px;
+    font-size: 16px;
+}
+.footer-seven{
+    width: 100vw;
+    height: 168.6px;
+    border-top: 1px solid #e2e2e2;
+}
+.footer-seven-one{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #09c;
+    font-size: 14px;
+}
+.footer-seven-two{
+    height: 70px;
+    line-height: 70px;
+}
+.footer-seven-two-box{
+          width: 120px;
+          height: 40px;
+          border: 1px solid black;
+          text-align: center;
+          line-height: 40px;
+          position: relative;
+          left: 127.6px;
+          top:14px;
+}
+.footer-seven-three{
+    height: 17.6px;
+    text-align: center;
+}
+.footer-seven-three>p{
+    font-size: 12px;
+}
+.footer-seven-four{
+    height: 42px;
+    width: 100vw;
+    float: left;
+    text-align: center;
+}
+.sina{
+    width: 40px;
+    height: 40px;
+}
+.vx{
+    width: 30px;
+    height: 30px;
+}
+.img-vx{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 140px;
+    top: 5px;
+
+}
+.img-sina{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 190px;
+    top: -43px;
+}
+.footer-eight{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+#f-e-a{
+    text-decoration: none;
+    color: #09c;
+}
+.footer-nine{
+    height: 99.8px;
+    border-top: 1px solid #e2e2e2;
+}
+.f-n-t{
+    margin-top: 5px;
+    height: 29px;
+    text-align: center;
+}
+.footer-nine>div>span{
+    font-size: 12px;
+}
+.f-n-one{
+    border-right:1px solid #666;
+}
+.footer-ten{
+    height: 170px;
+    border-top: 1px solid #e2e2e2;
+}
+.f-t-one{
+    height: 29.6px;
+    text-align: center;
+    line-height: 29.6px;
+    font-size: 12px;
+    color: #999;
+    margin-top: 50px;
+}
+.f-t-two{
+    height: 29.6px;
+    text-align: center;
+    font-size: 12px;
+}
+.f-t-three{
+    height: 36px;
+    margin-top: 8px;
+}
+.f-t-three-zhizhao{
+    position: relative;
+    left: 95px;
+}
+.f-t-three-wangzhan{
+    position: relative;
+    left: 195px;
+    top: -34px;
+}
+.zhizhao{
+    width: 83px;
+    height: 30px;
+}
+.wangzhan{
+    width: 83px;
+    height: 30px;
+}
+.footer-11{
+    height: 45px;
+    background-color: #EFEFEF;
+    text-align: center;
+    line-height: 45px;
+    color: #999;
+    font-size: 12px;
+}
+li{
+    text-decoration: none;
+}
+.hover-box-one{
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    z-index: 9999999999;
+    display: none;
+    background-color: #fcfcfc;
+}
+.p1:hover+.hover-box-one{
+    display: block;
+}
+.hover-box-two{
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    z-index: 9999999999;
+    display: none;
+    background-color: #fcfcfc;
+}
+.p2:hover+.hover-box-two{
+    display: block;
+}
+.hover-box-three{
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    z-index: 9999999999;
+    display: none;
+    background-color: #fcfcfc;
+}
+.p3:hover+.hover-box-three{
+    display: block;
+}
+.hover-box-four{
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    z-index: 9999999999;
+    display: none;
+    background-color: #fcfcfc;
+}
+.p4:hover+.hover-box-four{
+    display: block;
+}
